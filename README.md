@@ -1,2 +1,8 @@
 # Roblox-Notification-Service
 This is a custom built roblox notification API, the theme is mainly for simulators. But of course can be tweaked for your need, all is typed checked and cleaned up as much as possible to let roblox GC handle the rest cleanly and swiftly.
+
+
+
+
+
+For use, you only go through the Noti Service for running commands, this is a simple drag and drop into your client then you can directly run your notifications, make sure that the Notification Component is parented under the Service. What does this notification system support? Well it supports multiple notifications at once, and also a clean user experience by having multiple smooth clean animations to make the transitions look seemless. And the service automatically handles queuing and will update anything that needs to be changed based on what is inputed. And finally if you wish to change any settings you can do so by going into the Notification Component and that contains all the settings of the Notification Object Component itself. One last thing the notification component also supports dynamic string usage. So if you need to have a non constant string as your notification you can do so by passing a override function as the third argument to the push function for notifications on the notification service. And you write what the function needs to do, to computate and generate that string. That is about all for this system, again it is very easy just a drag and drop no external dependecies, there of course is better ones out there possibly. But I just wanted to release my version of a quick clean and straight to the point notification service. :D
